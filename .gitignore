@@ -1,0 +1,13 @@
+node_modules/
+release/
+tmp/
+work/
+.tools/
+/marketing/
+.env
+.env.*
+!.env.example
+outputs/cloud-config.js
+outputs/cloud-client.bundle.js
+package-lock.json
+npm-debug.log

@@ -1,0 +1,66 @@
+{
+  "name": "invoicer-business-suite",
+  "version": "1.0.11",
+  "packageManager": "pnpm@11.25.0",
+  "description": "Invoicer Business Suite for Windows",
+  "private": true,
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "build:cloud": "node scripts/build-cloud.mjs",
+    "build:web": "node scripts/build-cloud.mjs --require-config",
+    "start": "pnpm run build:cloud && electron .",
+    "dist:win": "pnpm run build:cloud && electron-builder --win",
+    "publish:win": "pnpm run build:cloud && electron-builder --win --publish always"
+  },
+  "engines": {
+    "node": ">=26.12.1"
+  },
+  "devDependencies": {
+    "electron": "^45.1.0",
+    "electron-builder": "26.18.0",
+    "esbuild": "^0.28.2"
+  },
+  "build": {
+    "appId": "com.invoicer.businesssuite",
+    "productName": "Invoicer Business Suite",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "desktop/**/*",
+      "outputs/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "nsis-web"
+      ],
+      "artifactName": "Invoicer-Business-Suite-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Invoicer Business Suite"
+    },
+    "nsisWeb": {
+      "artifactName": "Invoicer-Business-Suite-Web-Setup-${version}.${ext}"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "wahid0018",
+      "repo": "invoicer-by-wahid"
+    }
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "electron-updater": "6.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wahid0018/invoicer-by-wahid.git"
+  }
+}

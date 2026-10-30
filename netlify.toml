@@ -1,0 +1,11 @@
+[build]
+  command = "pnpm run build:web"
+  publish = "outputs"
+
+[build.environment]
+  NODE_VERSION = "26.12.1"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

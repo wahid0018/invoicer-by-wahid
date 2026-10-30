@@ -1,0 +1,327 @@
+/* Higher contrast dark surfaces; print sheets intentionally retain their paper colors. */
+body.dark-theme {
+  --ink: #edf3f6;
+  --muted: #b0bec7;
+  --line: #3a4b56;
+  --paper: #1c2933;
+  --canvas: #101820;
+  --accent: #60d1bf;
+  --accent2: #73e0cd;
+  --soft: #24433f;
+  --nav: #0a1117;
+  --navmuted: #c0cbd2;
+  --shadow: 0 12px 34px #0007;
+  color-scheme: dark;
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+body.dark-theme .subtitle,
+body.dark-theme .stat-top,
+body.dark-theme .stat-bottom,
+body.dark-theme .minirow,
+body.dark-theme .panel-note,
+body.dark-theme .field-hint,
+body.dark-theme .customer small,
+body.dark-theme .crumb,
+body.dark-theme .crumb b,
+body.dark-theme .master-field small,
+body.dark-theme .register-heading span,
+body.dark-theme .optional-tag,
+body.dark-theme .empty,
+body.dark-theme .page-blank p {
+  color: #b0bec7;
+}
+
+body.dark-theme .page-head h1,
+body.dark-theme .panel-title,
+body.dark-theme .customer b,
+body.dark-theme .amount,
+body.dark-theme .minirow b,
+body.dark-theme .leader-meta b,
+body.dark-theme .leader-sum,
+body.dark-theme .table-link,
+body.dark-theme .section-heading b,
+body.dark-theme .summary-heading b,
+body.dark-theme .grand-total,
+body.dark-theme .invoice-card,
+body.dark-theme .register-summary b,
+body.dark-theme .backup-counts b,
+body.dark-theme .master-list h2,
+body.dark-theme .master-list h3 {
+  color: #edf3f6;
+}
+
+body.dark-theme th {
+  color: #d8e3e9;
+  background: #253540;
+  border-color: #3a4b56;
+}
+body.dark-theme td {
+  color: #d2dde3;
+  border-color: #354650;
+}
+body.dark-theme tbody tr:nth-child(even) { background: #202e38; }
+body.dark-theme tbody tr:hover { background: #293b45; }
+body.dark-theme .customer .miniava,
+body.dark-theme .leader .miniava,
+body.dark-theme .rank,
+body.dark-theme .step-no,
+body.dark-theme .stat-icon {
+  background: #2a3b45;
+  color: #a4e8dc;
+}
+body.dark-theme .target {
+  background: linear-gradient(145deg, #1c3536, #203c3b);
+  border-color: #365551;
+}
+body.dark-theme .target-ring { background: conic-gradient(#60d1bf 72%, #354d4c 0); }
+body.dark-theme .target-ring::before { background: #1d3737; }
+body.dark-theme .target-ring b,
+body.dark-theme .target-text span { color: #c5eee7; }
+
+body.dark-theme input,
+body.dark-theme select,
+body.dark-theme textarea,
+body.dark-theme .select,
+body.dark-theme .search,
+body.dark-theme .ledger-input,
+body.dark-theme .register-heading input,
+body.dark-theme .line-details {
+  background: #121e26;
+  color: #f0f5f7;
+  border-color: #4a5d68;
+}
+body.dark-theme input::placeholder,
+body.dark-theme textarea::placeholder { color: #9aabb5; opacity: 1; }
+body.dark-theme select option { background: #1c2933; color: #edf3f6; }
+body.dark-theme input:focus,
+body.dark-theme select:focus,
+body.dark-theme textarea:focus {
+  border-color: #60d1bf;
+  box-shadow: 0 0 0 3px #60d1bf2b;
+}
+body.dark-theme label,
+body.dark-theme .field label,
+body.dark-theme .setup-section-title b,
+body.dark-theme .setting-switch b,
+body.dark-theme .master-field label,
+body.dark-theme .register-heading b,
+body.dark-theme .backup-note b { color: #e4edf1; }
+body.dark-theme .btn:not(.primary),
+body.dark-theme .row-open,
+body.dark-theme .master-row-actions button,
+body.dark-theme .invoice-shortcuts button,
+body.dark-theme .more-details-toggle,
+body.dark-theme .iconbtn,
+body.dark-theme .invoice-actions button {
+  background: #263640;
+  color: #e6eef2;
+  border-color: #4a5d68;
+}
+body.dark-theme .btn.primary { background: #087e76; border-color: #27a99c; color: #fff; }
+body.dark-theme .btn.primary:hover { background: #0b9388; }
+body.dark-theme .pill.paid { background: #204436; color: #9de1bd; }
+body.dark-theme .pill.due { background: #493b24; color: #f5d28a; }
+body.dark-theme .pill.overdue { background: #4a2d2d; color: #ffb5aa; }
+body.dark-theme .pill.cancelled { background: #3a3035; color: #e6b6c0; }
+body.dark-theme .negative { color: #ffad9d; }
+body.dark-theme .positive { color: #82dfba; }
+body.dark-theme .combo-menu { background: #1c2933; border-color: #4a5d68; box-shadow: 0 16px 38px #000a; }
+body.dark-theme .combo-option { color: #edf3f6; }
+body.dark-theme .combo-option small { color: #b0bec7; }
+body.dark-theme .combo-option:hover,
+body.dark-theme .combo-option:focus,
+body.dark-theme .combo-option.selected,
+body.dark-theme .combo-create:hover { background: #294640; color: #f2fffc; }
+body.dark-theme .party-contact-summary { color: #bbcad2; }
+body.dark-theme .master-tip,
+body.dark-theme .backup-status { background: linear-gradient(110deg, #1b3037, #1d3937); color: #edf3f6; }
+body.dark-theme .backup-note { background: #17252d; color: #c0cbd2; }
+body.dark-theme .invoice-line td { background: transparent; }
+body.dark-theme .grid-total-row td { background: #2a3b45; color: #f0f5f7; }
+body.dark-theme .round-line,
+body.dark-theme .summary-line,
+body.dark-theme .invoice-summary,
+body.dark-theme .summary-heading,
+body.dark-theme .summary-state { color: #e6eef2; }
+body.dark-theme :focus-visible { outline: 2px solid #73e0cd; outline-offset: 2px; }
+
+/* Account overlays and dialogs should follow the workspace theme too. */
+body.dark-theme #authRoot {
+  color: #edf3f6;
+  background: radial-gradient(ellipse at 12% 2%, #17413b 0, transparent 42%),
+    radial-gradient(ellipse at 95% 90%, #1b3144 0, transparent 38%), #101820;
+}
+body.dark-theme .auth-card,
+body.dark-theme .auth-dialog,
+body.dark-theme .wa-dialog {
+  color: #edf3f6;
+  background: #1c2933;
+  border-color: #3a4b56;
+}
+body.dark-theme .auth-sub,
+body.dark-theme .auth-muted,
+body.dark-theme .auth-brand small,
+body.dark-theme .wa-dialog-head p { color: #b0bec7; }
+body.dark-theme .auth-form label,
+body.dark-theme .wa-dialog-fields label { color: #dce6eb; }
+body.dark-theme .auth-form input,
+body.dark-theme .auth-form select,
+body.dark-theme .auth-form textarea,
+body.dark-theme .wa-dialog-fields input,
+body.dark-theme .wa-dialog-fields textarea {
+  color: #f0f5f7;
+  background: #121e26;
+  border-color: #4a5d68;
+}
+body.dark-theme .auth-btn:not(.primary) { color: #e6eef2; background: #263640; border-color: #4a5d68; }
+body.dark-theme .auth-panel,
+body.dark-theme .auth-stat,
+body.dark-theme .auth-table th { color: #edf3f6; background: #253540; border-color: #3a4b56; }
+body.dark-theme .auth-table td { color: #d2dde3; border-color: #3a4b56; }
+body.dark-theme .auth-separator { border-top-color: #3a4b56; }
+body.dark-theme .auth-alert { color: #f3d798; background: #403722; }
+body.dark-theme .auth-error { color: #ffaaa0; }
+body.dark-theme .wa-backdrop { background: #050a0edb; }
+
+/* Invoice editor controls with legacy light-mode fills. */
+body.dark-theme .invoice-card .add-item,
+body.dark-theme .invoice-card .add-expense,
+body.dark-theme .invoice-card .add-row-link,
+body.dark-theme .invoice-card .text-action {
+  color: #9ce9dc;
+  background: #263942;
+  border-color: #48616a;
+}
+body.dark-theme .invoice-card .add-item:hover,
+body.dark-theme .invoice-card .add-expense:hover,
+body.dark-theme .invoice-card .add-row-link:hover {
+  color: #e8fffa;
+  background: #304951;
+}
+body.dark-theme .invoice-card .summary-state {
+  color: #d4e4e8;
+  background: #26363e;
+}
+body.dark-theme .invoice-card .summary-state .auto-tag { color: #9ce9dc; }
+body.dark-theme .invoice-card .grand-total {
+  color: #eaf8f5;
+  background: #1c4541;
+  border: 1px solid #34746b;
+}
+body.dark-theme .invoice-card .grand-total b { color: #9ce9dc; }
+body.dark-theme .invoice-card .expense-group-title { color: #dce7ec; }
+body.dark-theme .invoice-card .expense-row input,
+body.dark-theme .invoice-card .expense-row select {
+  color: #f0f5f7;
+  background: #121e26;
+  border-color: #4a5d68;
+}
+body.dark-theme .invoice-card .expense-row input::placeholder { color: #9aabb5; }
+
+/* The totals panel is a sibling of invoice-card, so style its nested elements directly. */
+body.dark-theme .summary-card .summary-mark {
+  color: var(--accent2);
+  background: #29413f;
+}
+body.dark-theme .summary-card .summary-heading span,
+body.dark-theme .summary-card .summary-line span,
+body.dark-theme .summary-card .round-line,
+body.dark-theme .summary-card .round-line label,
+body.dark-theme .summary-card .amount-words span {
+  color: #b9c7cf;
+}
+body.dark-theme .summary-card .summary-line b,
+body.dark-theme .summary-card .round-line b,
+body.dark-theme .summary-card .amount-words b {
+  color: #edf3f6;
+}
+body.dark-theme .summary-card .round-line input { accent-color: var(--accent2); }
+body.dark-theme .summary-card .grand-total {
+  color: #eaf8f5;
+  background: #1c4541;
+  border: 1px solid #34746b;
+}
+body.dark-theme .summary-card .grand-total b { color: #9ce9dc; }
+body.dark-theme .summary-card .summary-state { color: #d4e4e8; background: #26363e; }
+
+/* Sidebar groups stay usable when collapsed and remember their state per account. */
+.sidebar .section-label { appearance:none; display:flex; align-items:center; width:100%; border:0; background:transparent; color:#e0ebefaa; font:700 9px 'DM Sans',sans-serif; letter-spacing:1.4px; text-align:left; cursor:pointer; }
+.sidebar .section-label>span { margin-left:auto; font-size:12px; transition:transform .16s ease; }
+.sidebar .section-label[aria-expanded="false"]>span { transform:rotate(-90deg); }
+.sidebar .nav[hidden] { display:none!important; }
+
+/* Additional accent palettes, including deeper colors for users who prefer dark accents. */
+body[data-color-theme="midnight"] { --accent:#294a70; --accent2:#426b96; --soft:#e7edf5; --sidebar-theme-top:#243b58; --sidebar-theme-bottom:#15273f; }
+body[data-color-theme="deep-navy"] { --accent:#173a58; --accent2:#315d82; --soft:#e7eef4; --sidebar-theme-top:#1b3550; --sidebar-theme-bottom:#10263d; }
+body[data-color-theme="forest"] { --accent:#20533e; --accent2:#36785a; --soft:#e8f1eb; --sidebar-theme-top:#204a39; --sidebar-theme-bottom:#143629; }
+body[data-color-theme="plum"] { --accent:#57365f; --accent2:#80538a; --soft:#f0eaf2; --sidebar-theme-top:#4b3155; --sidebar-theme-bottom:#35223d; }
+
+/* Workspace canvas options change the page background while keeping cards and forms legible. */
+body[data-workspace-background="mist"] { --canvas:#e9f1f5; }
+body[data-workspace-background="sand"] { --canvas:#f3eee4; }
+body[data-workspace-background="slate"] { --canvas:#e9ebef; }
+body.dark-theme[data-workspace-background="mist"] { --canvas:#101c24; }
+body.dark-theme[data-workspace-background="sand"] { --canvas:#1d1b18; }
+body.dark-theme[data-workspace-background="slate"] { --canvas:#171b21; }
+
+/* Per-company accent palettes. */
+body[data-color-theme="ocean"] { --accent: #3b9de0; --accent2: #68baf0; --soft: #e8f4fc; }
+body[data-color-theme="indigo"] { --accent: #7367d8; --accent2: #9b91f1; --soft: #efedfc; }
+body[data-color-theme="rose"] { --accent: #d15e83; --accent2: #eb86a4; --soft: #faedf1; }
+body[data-color-theme="amber"] { --accent: #b87920; --accent2: #dfa63f; --soft: #fbf3e4; }
+body.dark-theme[data-color-theme="ocean"] { --accent: #65baf0; --accent2: #83cefa; --soft: #223c4d; }
+body.dark-theme[data-color-theme="indigo"] { --accent: #a49afa; --accent2: #b7b0ff; --soft: #302e4c; }
+body.dark-theme[data-color-theme="rose"] { --accent: #f08aaa; --accent2: #ffa8c0; --soft: #472d39; }
+body.dark-theme[data-color-theme="amber"] { --accent: #f0bd63; --accent2: #ffd27d; --soft: #493d29; }
+body[data-color-theme] .nav button.active {
+  color: var(--accent2);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  box-shadow: inset 2px 0 var(--accent2);
+}
+body[data-color-theme] .sidebar {
+  color: #fff;
+  border-right: 0;
+  background: linear-gradient(165deg, var(--sidebar-theme-top), var(--sidebar-theme-bottom));
+}
+body[data-color-theme] .sidebar .brand small,
+body[data-color-theme] .sidebar .profile span { color: #e2edf0b8; }
+body[data-color-theme] .sidebar .navlabel { color: #e0ebefaa; }
+body[data-color-theme] .sidebar .nav button { color: #eff6f7d9; }
+body[data-color-theme] .sidebar .nav button:hover { background: #ffffff1c; color: #fff; }
+body[data-color-theme] .sidebar .nav button.active {
+  color: #fff;
+  background: #ffffff24;
+  box-shadow: inset 3px 0 #ffffffd9;
+}
+body[data-color-theme] .sidebar .org {
+  background: #ffffff12;
+  border-color: #ffffff36;
+}
+body[data-color-theme="emerald"] { --sidebar-theme-top: #126b62; --sidebar-theme-bottom: #0c4847; }
+body[data-color-theme="ocean"] { --sidebar-theme-top: #205d83; --sidebar-theme-bottom: #173d61; }
+body[data-color-theme="indigo"] { --sidebar-theme-top: #514b91; --sidebar-theme-bottom: #333266; }
+body[data-color-theme="rose"] { --sidebar-theme-top: #91445e; --sidebar-theme-bottom: #63344e; }
+body[data-color-theme="amber"] { --sidebar-theme-top: #8b6429; --sidebar-theme-bottom: #614719; }
+body[data-color-theme] .btn.primary { background: var(--accent); border-color: var(--accent); }
+body[data-color-theme] .btn.primary:hover { filter: brightness(1.08); }
+body[data-color-theme] .step-no,
+body[data-color-theme] .summary-mark,
+body[data-color-theme] .stat-icon { color: var(--accent); }
+
+@media (max-width: 700px) {
+  body.dark-theme .panel,
+  body.dark-theme .stat,
+  body.dark-theme .register-summary .card { border-color: #3a4b56; }
+}
+
+/* Keep deep accent colors legible when paired with the app's dark appearance. */
+body.dark-theme[data-color-theme="midnight"] { --accent:#86b5e6; --accent2:#a0cbf5; --soft:#26384a; }
+body.dark-theme[data-color-theme="deep-navy"] { --accent:#8bbbe2; --accent2:#acd1ef; --soft:#263746; }
+body.dark-theme[data-color-theme="forest"] { --accent:#82d2a8; --accent2:#a4e5bf; --soft:#254034; }
+body.dark-theme[data-color-theme="plum"] { --accent:#d1a4db; --accent2:#e3b9eb; --soft:#3d3043; }
+@media (max-width:700px) {
+  .sidebar .section-label { display:none; }
+}
+.collapsed .sidebar .section-label { display:none; }

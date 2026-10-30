@@ -1,6 +1,6 @@
 # INVOICER by wahid
 
-**Windows invoicing and GST workflow for small businesses.** Create invoices, track collections, and manage party balances from a desktop app backed by a local database file.
+**Cross-platform invoicing and GST workflow for small businesses.** Run the app in a browser or Windows desktop, create invoices, track collections, and manage party balances. When configured, both clients share Supabase data; desktop installations can also keep a local database file for offline access.
 
 ![Invoicer Business Suite dashboard](docs/images/dashboard.jpg)
 
@@ -47,18 +47,20 @@ The app includes its own Electron runtime. You do not need to install Node.js se
 - Create delivery notes and export e-way bill JSON data.
 - Save work in a local `.invoicerdb` file with backup and restore tools.
 - Check GitHub Releases for app updates.
+- Sign in to a shared Supabase workspace from the web app and configured desktop builds.
 
 ## Data and tax notes
 
-Business data is kept in the local database file; this release does not sync with Supabase or another cloud database. Keep a separate backup of the `.invoicerdb` file.
+Cloud sync is enabled after a Supabase project is configured and its SQL files are applied. The current compatibility layer synchronizes company-scoped app records with version checks; simultaneous edit conflicts are reported instead of silently overwritten. Desktop builds can keep a `.invoicerdb` cache for local use. Keep a separate backup of local database files.
 
 GSTR-1 and e-way bill outputs are provided as workflow tools and should be checked before statutory use. The app is not a certified tax filing service.
 
 ## Documentation
 
+- [Configure Supabase, Netlify, and desktop cloud access](docs/CLOUD_SETUP.md)
 - [Install the Windows app](INSTALLATION.md)
 - [Features and limitations](FEATURES_AND_LIMITATIONS.md)
 - [Database, backup, and privacy](DATA_AND_BACKUP.md)
 - [App updates](UPDATES.md)
 
-Application source code is not published in this repository. For support, contact the repository owner.
+The web application source and Supabase deployment setup are included in this repository. See [Cloud setup](docs/CLOUD_SETUP.md) to configure Supabase and connect the repository to Netlify.

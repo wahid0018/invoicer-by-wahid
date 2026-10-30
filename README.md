@@ -2,6 +2,18 @@
 
 **Cross-platform invoicing and GST workflow for small businesses.** Run the app in a browser or Windows desktop, create invoices, track collections, and manage party balances. When configured, both clients share Supabase data; desktop installations can also keep a local database file for offline access.
 
+![Invoicer Business Suite mobile feature poster](docs/images/mobile-feature-poster.svg)
+
+## Client sign-in and account creation
+
+These clean client-flow screen visuals show the sign-in and new-account steps. Fields are intentionally blank.
+
+| Sign in to a workspace | Create a client account |
+| --- | --- |
+| ![Client sign-in screen](docs/images/client-login.svg) | ![Client account creation screen](docs/images/client-signup.svg) |
+
+## App screenshots
+
 ![Invoicer Business Suite dashboard](docs/images/dashboard.jpg)
 
 ## Screenshots

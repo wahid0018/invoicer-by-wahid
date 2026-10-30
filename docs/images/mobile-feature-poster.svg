@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+<title id="title">Invoicer Business Suite — mobile feature poster</title>
+<desc id="desc">A soft neumorphic mobile poster highlighting GST invoicing, payment tracking, outstanding bills, ledgers, PDF sharing, and cloud access.</desc>
+<defs>
+  <linearGradient id="bg" x2=".9" y2="1"><stop stop-color="#f5f9f8"/><stop offset="1" stop-color="#e7efee"/></linearGradient>
+  <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#2bb6a5"/><stop offset="1" stop-color="#087e76"/></linearGradient>
+  <linearGradient id="deep" x2="1" y2="1"><stop stop-color="#203941"/><stop offset="1" stop-color="#14272e"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="10" dy="14" stdDeviation="18" flood-color="#94aaa7" flood-opacity=".30"/><feDropShadow dx="-5" dy="-6" stdDeviation="12" flood-color="#fff" flood-opacity=".95"/></filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="5" dy="7" stdDeviation="9" flood-color="#a6b8b5" flood-opacity=".27"/><feDropShadow dx="-3" dy="-4" stdDeviation="7" flood-color="#fff" flood-opacity=".9"/></filter>
+</defs>
+<rect width="1080" height="1920" rx="0" fill="url(#bg)"/>
+<circle cx="980" cy="230" r="240" fill="#bce8e1" opacity=".24"/><circle cx="110" cy="1550" r="280" fill="#cee2f4" opacity=".25"/>
+<g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#1b343b">
+  <g transform="translate(82 76)"><rect width="74" height="74" rx="23" fill="url(#accent)" filter="url(#soft)"/><text x="37" y="52" text-anchor="middle" font-size="42" font-weight="800" fill="#fff">i</text><text x="98" y="32" font-size="24" font-weight="800" letter-spacing="2">INVOICER</text><text x="99" y="57" font-size="13" font-weight="600" letter-spacing="3" fill="#71858a">BUSINESS SUITE</text></g>
+  <text x="82" y="245" font-size="23" font-weight="700" fill="#087e76" letter-spacing="4">YOUR BUSINESS, IN GOOD ORDER</text>
+  <text x="82" y="337" font-size="76" font-weight="800" letter-spacing="-3">Invoices made</text>
+  <text x="82" y="424" font-size="76" font-weight="800" letter-spacing="-3">clear and simple.</text>
+  <text x="84" y="477" font-size="25" fill="#687c80">Create GST invoices, track collections and share PDFs</text>
+  <text x="84" y="513" font-size="25" fill="#687c80">from one calm, easy-to-use workspace.</text>
+  <g filter="url(#shadow)"><rect x="78" y="568" width="924" height="412" rx="38" fill="#f0f5f4"/></g>
+  <g transform="translate(115 608)">
+    <rect width="850" height="332" rx="25" fill="#f9fbfa"/>
+    <text x="34" y="48" font-size="15" font-weight="700" letter-spacing="2" fill="#829195">INVOICE SUMMARY</text>
+    <text x="34" y="94" font-size="27" font-weight="700">INV-0108</text><rect x="670" y="55" width="145" height="39" rx="20" fill="#e0f2ee"/><text x="742" y="81" text-anchor="middle" font-size="14" font-weight="700" fill="#087e76">GST READY</text>
+    <path d="M34 120H815" stroke="#e3ecea" stroke-width="2"/>
+    <text x="34" y="162" font-size="15" fill="#829195">TAXABLE VALUE</text><text x="34" y="202" font-size="27" font-weight="700">₹ 12,000.00</text>
+    <text x="308" y="162" font-size="15" fill="#829195">GST · 5%</text><text x="308" y="202" font-size="27" font-weight="700">₹ 600.00</text>
+    <text x="578" y="162" font-size="15" fill="#829195">TOTAL</text><text x="578" y="202" font-size="27" font-weight="700" fill="#087e76">₹ 12,600.00</text>
+    <path d="M34 228H815" stroke="#e3ecea" stroke-width="2"/>
+    <rect x="34" y="253" width="248" height="52" rx="15" fill="url(#accent)"/><text x="158" y="286" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">＋  New invoice</text>
+    <rect x="300" y="253" width="222" height="52" rx="15" fill="#edf3f2"/><text x="411" y="286" text-anchor="middle" font-size="16" font-weight="700" fill="#466168">⇧  Share PDF</text>
+  </g>
+  <text x="82" y="1050" font-size="18" font-weight="800" letter-spacing="3" fill="#73868a">EVERYDAY TOOLS, ONE WORKSPACE</text>
+  <g filter="url(#soft)"><rect x="78" y="1090" width="442" height="172" rx="27" fill="#f1f6f5"/><rect x="560" y="1090" width="442" height="172" rx="27" fill="#f1f6f5"/><rect x="78" y="1284" width="442" height="172" rx="27" fill="#f1f6f5"/><rect x="560" y="1284" width="442" height="172" rx="27" fill="#f1f6f5"/><rect x="78" y="1478" width="442" height="172" rx="27" fill="#f1f6f5"/><rect x="560" y="1478" width="442" height="172" rx="27" fill="#f1f6f5"/></g>
+  <g font-size="18" font-weight="700" fill="#203a41">
+    <g transform="translate(112 1125)"><circle cx="39" cy="39" r="37" fill="#e1f1ee"/><text x="39" y="49" text-anchor="middle" font-size="30" fill="#087e76">₹</text><text x="96" y="34">GST invoicing</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">Tax slabs and clear totals</text></g>
+    <g transform="translate(594 1125)"><circle cx="39" cy="39" r="37" fill="#e5edf6"/><text x="39" y="50" text-anchor="middle" font-size="26" fill="#4b76a1">↗</text><text x="96" y="34">Outstanding bills</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">See what is still due</text></g>
+    <g transform="translate(112 1319)"><circle cx="39" cy="39" r="37" fill="#e1f1ee"/><text x="39" y="49" text-anchor="middle" font-size="26" fill="#087e76">▤</text><text x="96" y="34">Party ledger</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">Follow balances and activity</text></g>
+    <g transform="translate(594 1319)"><circle cx="39" cy="39" r="37" fill="#f5ecdf"/><text x="39" y="49" text-anchor="middle" font-size="25" fill="#a77633">✓</text><text x="96" y="34">Payment vouchers</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">Record and allocate receipts</text></g>
+    <g transform="translate(112 1513)"><circle cx="39" cy="39" r="37" fill="#e5edf6"/><text x="39" y="49" text-anchor="middle" font-size="24" fill="#4b76a1">⇧</text><text x="96" y="34">Print and share</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">Send invoice PDFs with ease</text></g>
+    <g transform="translate(594 1513)"><circle cx="39" cy="39" r="37" fill="#e1f1ee"/><text x="39" y="49" text-anchor="middle" font-size="24" fill="#087e76">☁</text><text x="96" y="34">Online workspace</text><text x="96" y="62" font-size="14" font-weight="500" fill="#71858a">Use cloud sync when configured</text></g>
+  </g>
+  <g filter="url(#soft)"><rect x="78" y="1701" width="924" height="129" rx="28" fill="url(#deep)"/></g>
+  <text x="118" y="1755" font-size="25" font-weight="700" fill="#fff">Spend less time chasing paperwork.</text>
+  <text x="118" y="1793" font-size="19" fill="#b8d0ce">Keep invoices, collections and customer balances together.</text>
+  <text x="82" y="1880" font-size="16" font-weight="700" letter-spacing="2" fill="#70858a">INVOICER BY WAHID</text>
+  <text x="998" y="1880" text-anchor="end" font-size="15" fill="#809397">WEB · WINDOWS</text>
+</g></svg>

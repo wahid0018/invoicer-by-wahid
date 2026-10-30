@@ -1,17 +1,15 @@
 # Database, backup, and privacy
 
-The installed prototype stores its local records in a single `.invoicerdb` JSON file selected by the administrator. The desktop app remembers the selected file path on that Windows computer and saves changes to it.
+INVOICER stores business records in a local `.invoicerdb` file selected in the app. The Windows app remembers the selected file path on that computer and saves changes to the file. Database contents are not encrypted, so protect the file and the Windows account that can access it.
 
 ## Backup and restore
 
-- Use **Data & Backup → Database backup & restore** to save a dated backup.
-- Store a backup somewhere separate from the active database, such as an external drive.
-- Restore replaces records in the currently connected database. Confirm the selection before restoring.
-- Test that a backup can be opened before relying on it.
+- Open **Backup & restore** to create a separate backup or restore one.
+- Keep backups somewhere separate from the active database, such as an external drive.
+- Restoring replaces records in the connected database. Check the selected database and backup before restoring.
+- Do not edit the same database file concurrently from multiple computers.
 
-## Important limitations
+## Data and privacy limits
 
-- Database contents are not encrypted by this prototype. Protect the Windows account and database file.
-- Do not open one database file for concurrent editing from multiple computers.
-- The local database does not synchronize with Supabase or another cloud service.
+- The local database does not sync with Supabase or another cloud service.
 - A backup contains the app records in the database. Store and share it with the same care as the original.

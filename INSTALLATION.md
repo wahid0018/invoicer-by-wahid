@@ -1,12 +1,12 @@
 # Install on Windows
 
-1. Download the setup executable from the latest GitHub release.
-2. Run `Invoicer-Business-Suite-Setup-1.0.0.exe` and follow the installer.
+1. Open the [latest GitHub release](https://github.com/wahid0018/invoicer-by-wahid/releases/latest) and choose either **Web Setup** or **Setup**.
+2. Run **Web Setup** for a small download that fetches the app package during installation. Choose **Setup** to download the full app in one file for offline installation.
 3. Start **Invoicer Business Suite** from the Start menu or desktop shortcut.
 4. On first use, sign in as the administrator and select an existing `.invoicerdb` file or create a database from the administrator panel.
 
-The Windows installer bundles the application interface, so the app can open without an internet connection. Internet access is required for any external services or links.
+The app does not require a separate system-wide Node.js installation; Electron includes the runtime it uses.
 
 ## Updates
 
-Download and run the newer setup executable from the Releases page. Keep a separate backup of the database before updating.
+The app checks GitHub Releases for updates when it starts. You can also download and run a newer setup executable manually. Keep a separate backup of the database before updating.

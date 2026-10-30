@@ -2,7 +2,31 @@
 
 **Windows invoicing and GST workflow for small businesses.** Create invoices, track collections, and manage party balances from a desktop app backed by a local database file.
 
-![Invoicer Business Suite sign-in screen on first launch](docs/images/product-screenshot.jpg)
+![Invoicer Business Suite dashboard](docs/images/dashboard.jpg)
+
+## Screenshots
+
+The screenshots below show the current app interface. The workspace used for these captures has no saved business records yet, so registers and totals are empty.
+
+### GST invoice entry
+
+![Invoice editor with GST slab selection and taxable line amount](docs/images/invoice-editor.jpg)
+
+### Invoice register
+
+![Invoice register](docs/images/invoices.jpg)
+
+### Outstanding bills
+
+![Outstanding bills register](docs/images/outstanding.jpg)
+
+### Party ledger
+
+![Party ledger](docs/images/party-ledger.jpg)
+
+### Payment vouchers
+
+![Payment vouchers](docs/images/payment-vouchers.jpg)
 
 ## Download for Windows
 

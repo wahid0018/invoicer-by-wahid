@@ -34,7 +34,7 @@ pnpm install --frozen-lockfile
 pnpm run dist:win
 ```
 
-The generated installer includes the Supabase browser client and public project configuration. Each desktop user's authenticated session is stored by Supabase Auth, while the app can also use a local `.invoicerdb` file as a cache/backup.
+The normal Windows installer and GitHub publish commands require both configuration values, so the generated desktop app uses the same Supabase workspace as the web build. Each desktop user's authenticated session is stored by Supabase Auth, while the app can also use a local `.invoicerdb` file as a cache/backup. Use `pnpm run dist:win:offline` only when intentionally building a local-only installer.
 
 ## Current migration and sync limits
 

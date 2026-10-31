@@ -1,6 +1,6 @@
 # Cloud and web deployment setup
 
-The same renderer can run in a browser and inside the Electron desktop app. Supabase Auth identifies the user; company membership row-level security scopes cloud records. The web site is a static Netlify deploy from this GitHub repository.
+The same renderer can run in a browser and inside the Electron desktop app. Supabase Auth identifies the user; signup automatically provisions the user's first company workspace, and company membership row-level security scopes cloud records. The web site is a static Netlify deploy from this GitHub repository.
 
 ## 1. Create the Supabase project
 

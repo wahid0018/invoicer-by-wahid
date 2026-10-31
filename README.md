@@ -58,6 +58,7 @@ The app includes its own Electron runtime. You do not need to install Node.js se
 - Maintain parties, items and services, units, agents, transporters, company details, and invoice or delivery settings.
 - Create delivery notes and export e-way bill JSON data.
 - Save work in a local `.invoicerdb` file with backup and restore tools.
+- Create a local database as part of offline account signup, or let Supabase create the online company workspace during cloud signup.
 - Check GitHub Releases for app updates.
 - Sign in to a shared Supabase workspace from the web app and configured desktop builds.
 

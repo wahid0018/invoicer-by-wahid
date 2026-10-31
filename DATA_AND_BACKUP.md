@@ -1,6 +1,6 @@
 # Database, backup, and privacy
 
-INVOICER can store business records in the local `.invoicerdb` file or in the configured Supabase project. Cloud sync is disabled until a project is configured and the schema and migration are applied. Desktop builds can keep their local file as a cache; the browser build uses Supabase for online data.
+INVOICER can store business records in the local `.invoicerdb` file or in the configured Supabase project. Offline signup can create the local file as part of account setup; online signup creates the user's first company workspace in Supabase. Cloud sync is disabled until a project is configured and the schema and migration are applied. Desktop builds can keep their local file as a cache; the browser build uses Supabase for online data.
 
 ## Backup and restore
 

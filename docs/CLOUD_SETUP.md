@@ -25,7 +25,7 @@ The application can be opened locally without cloud settings, but `build:web` in
 
 ## 3. Configure a cloud-enabled desktop build
 
-On the build computer, install Node.js **26.12.1 or newer** and pnpm, then set the same two public Supabase values before building:
+On the build computer, install Node.js **26.13.0 or newer** and pnpm, then set the same two public Supabase values before building:
 
 ```powershell
 $env:SUPABASE_URL = "https://your-project.supabase.co"

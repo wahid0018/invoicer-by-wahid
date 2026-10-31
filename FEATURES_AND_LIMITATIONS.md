@@ -1,6 +1,6 @@
 # Features and limitations
 
-INVOICER by wahid is a browser and Windows desktop app for preparing invoices and tracking sales and receipts. The current Windows package is **1.0.11**.
+INVOICER by wahid is a browser and Windows desktop app for preparing invoices and tracking sales and receipts. The current Windows package is **1.0.12**.
 
 ## Included workflows
 

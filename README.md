@@ -44,8 +44,8 @@ The screenshots below show the current app interface. The workspace used for the
 
 Open the [latest GitHub release](https://github.com/wahid0018/invoicer-by-wahid/releases/latest) and choose the installer that fits:
 
-- **Offline setup** — `Invoicer-Business-Suite-Setup-1.0.11.exe`; includes the app package.
-- **Web setup** — `Invoicer-Business-Suite-Web-Setup-1.0.11.exe`; a small installer that downloads the app package during setup.
+- **Offline setup** — `Invoicer-Business-Suite-Setup-1.0.12.exe`; includes the app package.
+- **Web setup** — `Invoicer-Business-Suite-Web-Setup-1.0.12.exe`; a small installer that downloads the app package during setup.
 
 The app includes its own Electron runtime. You do not need to install Node.js separately.
 

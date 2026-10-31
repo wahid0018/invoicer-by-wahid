@@ -6,7 +6,7 @@ Keep a separate backup of the `.invoicerdb` database before updating.
 
 ## Build Windows installers
 
-The current build uses Node.js `26.12.1`, Electron `45.1.0`, and electron-builder `26.18.0`. Run `npm install` and then `npm run dist:win` from the application source workspace. The build creates both an offline Setup executable and a smaller Web Setup executable. The Web Setup also needs its matching `.nsis.7z` package beside it for offline distribution or uploaded as a release asset.
+The current build uses Node.js `26.13.0`, Electron `45.2.1`, and electron-builder `26.18.0`. Run `pnpm install --frozen-lockfile` and then `pnpm run dist:win:offline` for local-only use or `pnpm run dist:win` for a cloud-configured build. Both commands create an offline Setup executable and a smaller Web Setup executable. The Web Setup also needs its matching `.nsis.7z` package beside it for distribution.
 
 Electron includes its own Node.js runtime in the app, so the client computer does not need a separate Node.js installation.
 
